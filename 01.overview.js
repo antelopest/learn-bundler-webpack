@@ -10,12 +10,13 @@
 * */
 
 /*
-* What is Webpack?
+* * * What is Webpack?
 *
 * Inventor - Tobias Koppers
 *
+* * * Diff Bundler and Task manager
 *
-* Task Runner
+* * Task Runner
 * Gulp, Grunt - task runner
 * SASS -> CSS
 * TPL -> HTML
@@ -25,4 +26,10 @@
 *
 * Sequential execution of tasks.
 *
+* * Bundler
+* Webpack - bundler
+*
+* HTML, JS, CSS and other types -> bundle -> browser or node, or electron
+*
+* Other bundlers: browserify, brunch, parcel, rollup (for bundles npm packages)
 * */
