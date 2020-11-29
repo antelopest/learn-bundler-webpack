@@ -39,9 +39,6 @@
 *
 * Entry -> Webpack -> Output
 *
-*/
-
-/*
 * Entry [
 *   app/index.js
 *   app/component.js
@@ -56,4 +53,15 @@
 *   build/0.js
 * ]
 * */
+
+/*
+* Life Circle Webpack
+*
+* Loader entry-point (входная точка) ->
+*   Check injections with enhanced-resolve ->
+*       Building dependency graph ->
+*           Run loaders files ->
+*               Run plugins
+* */
+
 
