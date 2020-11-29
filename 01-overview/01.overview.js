@@ -39,6 +39,21 @@
 *
 * Entry -> Webpack -> Output
 *
-*
-*
 */
+
+/*
+* Entry [
+*   app/index.js
+*   app/component.js
+*   app/helper.js
+* ] -> Webpack [
+*   Plugin [
+*    Loaders ]
+*   ]
+* ] -> Output [
+*   build/app.js
+* ] -> split point [
+*   build/0.js
+* ]
+* */
+
